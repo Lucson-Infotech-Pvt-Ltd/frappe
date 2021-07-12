@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wireerp *.css
+recursive-include wireerp *.csv
+recursive-include wireerp *.html
+recursive-include wireerp *.ico
+recursive-include wireerp *.js
+recursive-include wireerp *.json
+recursive-include wireerp *.md
+recursive-include wireerp *.png
+recursive-include wireerp *.py
+recursive-include wireerp *.svg
+recursive-include wireerp *.txt
+recursive-exclude wireerp *.pyc
