@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "PTRA.#####",
+ "creation": "2021-07-27 18:06:42.141168",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "transection_type",
+  "transection_id",
+  "transection_date",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vendor",
+   "options": "Vendors"
+  },
+  {
+   "fieldname": "transection_type",
+   "fieldtype": "Select",
+   "label": "Transection Type",
+   "options": "Credit\nDebit"
+  },
+  {
+   "fieldname": "transection_id",
+   "fieldtype": "Data",
+   "label": "Transection ID"
+  },
+  {
+   "fieldname": "transection_date",
+   "fieldtype": "Data",
+   "label": "Transection Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-27 18:07:15.393842",
+ "modified_by": "Administrator",
+ "module": "Wire ERP",
+ "name": "Purchase Transection Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

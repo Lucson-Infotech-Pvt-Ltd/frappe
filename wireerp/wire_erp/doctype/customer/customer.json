@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "autoname": "Cust.####",
+ "creation": "2021-07-12 10:17:27.635211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "phone_number",
+  "address",
+  "column_break_4",
+  "company_name",
+  "gst_number",
+  "current_credit_amount",
+  "current_credit_scrap"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "gst_number",
+   "fieldtype": "Data",
+   "label": "GST Number"
+  },
+  {
+   "default": "0",
+   "fieldname": "current_credit_amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Current Credit Amount",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "current_credit_scrap",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Current Credit Scrap (In KG)",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-27 15:29:34.691562",
+ "modified_by": "Administrator",
+ "module": "Wire ERP",
+ "name": "Customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
