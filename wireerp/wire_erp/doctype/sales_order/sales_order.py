@@ -13,7 +13,8 @@ class SalesOrder(Document):
 		
 		self.Event_doc=frappe.new_doc("Transection Entry")
 		self.Event_doc.amount=self.total_amount
-		self.Event_doc.transection_type = 'Credit'
+		self.Event_doc.scrap=self.total_scrap
+		self.Event_doc.transection_type = 'Debit'
 		self.Event_doc.customer = self.customer
 		self.Event_doc.save()
 

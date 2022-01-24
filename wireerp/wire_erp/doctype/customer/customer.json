@@ -53,21 +53,19 @@
    "fieldname": "current_credit_amount",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Current Credit Amount",
-   "read_only": 1
+   "label": "Current Credit Amount"
   },
   {
    "default": "0",
    "fieldname": "current_credit_scrap",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Current Credit Scrap (In KG)",
-   "read_only": 1
+   "label": "Current Credit Scrap (In KG)"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-27 15:29:34.691562",
+ "modified": "2021-10-05 11:35:39.921392",
  "modified_by": "Administrator",
  "module": "Wire ERP",
  "name": "Customer",

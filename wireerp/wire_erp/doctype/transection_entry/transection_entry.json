@@ -16,10 +16,13 @@
  ],
  "fields": [
   {
+   "default": "Credit",
    "fieldname": "transection_type",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Transection Type",
-   "options": "Credit\nDebit"
+   "options": "Credit\nDebit",
+   "read_only": 1
   },
   {
    "fieldname": "transection_id",
@@ -28,7 +31,7 @@
   },
   {
    "fieldname": "transection_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Transection Date"
   },
   {
@@ -59,7 +62,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-08-01 17:02:51.220729",
+ "modified": "2021-10-05 11:24:54.443945",
  "modified_by": "Administrator",
  "module": "Wire ERP",
  "name": "Transection Entry",

@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "customer",
+  "scrap_to_take",
   "items",
   "amended_from",
   "total_amount",
@@ -45,12 +46,18 @@
    "fieldtype": "Float",
    "label": "Total Scrap",
    "read_only": 1
+  },
+  {
+   "default": "true",
+   "fieldname": "scrap_to_take",
+   "fieldtype": "Check",
+   "label": "Scrap Not To Take"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2021-07-27 12:42:43.900061",
+ "modified": "2021-10-05 11:52:50.699319",
  "modified_by": "Administrator",
  "module": "Wire ERP",
  "name": "Sales Order",
